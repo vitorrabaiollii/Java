@@ -1,0 +1,9 @@
+Quando compilamos o InfoAmbiente.java com o comando javac, ele gera o arquivo
+InfoAmbiente.class, que contém o bytecode Java. Esse bytecode não é específico do Windows ou do
+Linux ele foi feito para ser executado pela JVM, a Máquina Virtual Java. Ao usar o comando java
+InfoAmbiente, iniciamos a JVM, que carrega esse arquivo e executa suas instruções. Cada sistema tem sua
+própria implementação da JVM, responsável por interpretar o bytecode ou transformá-lo em código nativo
+com o compilador JIT. Por isso, o mesmo .class funciona nos dois sistemas sem precisar ser recompilado,
+desde que a versão da JVM seja compatível. No nosso programa, o System.getProperty busca os dados
+da máquina onde ele está rodando, então os resultados podem mudar. Assim, o javac compila o código e
+produz o bytecode, enquanto o java inicia a JVM para executá-lo.

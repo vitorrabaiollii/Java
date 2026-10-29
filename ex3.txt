@@ -1,0 +1,31 @@
+No terminal:
+jshell
+
+Dentro do JShell:
+
+jshell> int quantidade = 10;
+quantidade ==> 10
+
+jshell> double preco = 2.5;
+preco ==> 2.5
+
+jshell> float desconto = 3.0f;
+desconto ==> 3.0
+
+jshell> quantidade * preco
+$4 ==> 25.0
+
+jshell> quantidade - desconto
+$5 ==> 7.0
+
+jshell> quantidade > desconto
+$6 ==> true
+
+jshell> /exit
+|  Goodbye
+
+Tipos primitivos: int, double e float.
+Operadores aritmeticos: * (multiplicacao) e - (subtracao).
+Operador relacional: > (maior que).
+O cabecalho, a mensagem de saida e os numeros das variaveis temporarias podem variar conforme a sessao e o idioma.
+

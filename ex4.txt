@@ -1,0 +1,42 @@
+1. Código Java
+
+int venda = 5;
+int pedido = 7;
+boolean disponivel = venda >= pedido;
+System.out.println("Venda: " + venda);
+System.out.println("Pedido: " + pedido);
+System.out.println("Pode atender? " + disponivel);
+
+Saída esperada das três impressões:
+
+Venda: 5
+Pedido: 7
+Pode atender? false
+
+2. Explicação da IA, linha por linha
+
+Linha 1: cria uma variável do tipo int chamada venda e atribui o valor 5.
+
+Linha 2: cria uma variável do tipo int chamada pedido e atribui o valor 7.
+
+Linha 3: usa o operador relacional >= para verificar se venda é maior ou igual a pedido. Como 5 é menor que 7, a variável disponivel, do tipo boolean, recebe false.
+
+Linha 4: mostra o texto "Venda: " junto com o valor da variável venda.
+
+Linha 5: mostra o texto "Pedido: " junto com o valor da variável pedido.
+
+Linha 6: mostra o texto "Pode atender? " junto com o resultado da comparação, que é false.
+
+3. Avaliação da explicação
+
+A explicação da IA estava correta ao explicar os tipos das variáveis e mostrar que a comparação entre 5 e 7 resulta em false.
+Porém, o código apenas compara dois valores e não controla um estoque de verdade.
+Para representar a quantidade disponível de produtos, o nome estoque seria mais claro que venda.
+
+4. Tecnologia emergente no ecossistema Java
+
+A IA generativa já está presente no desenvolvimento Java por meio de ferramentas como o JetBrains AI Assistant, integrado ao IntelliJ IDEA.
+Ele permite explicar trechos de código, sugerir melhorias e ajudar na análise de erros, apoiando o aprendizado e o desenvolvimento de aplicações.
+
+Fonte: JetBrains — About AI Assistant.
+https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html

@@ -1,0 +1,2 @@
+javac InfoAmbiente.java
+java InfoAmbiente
